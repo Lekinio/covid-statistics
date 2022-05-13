@@ -8,6 +8,4 @@ export const connectionOptions: DataSourceOptions = {
   password: process.env.DB_PASSWORD || 'root',
   database: process.env.DB_DATABASE || 'covid_statistics',
   synchronize: true,
-  // migrationsRun: true,
-  migrations: []
 };

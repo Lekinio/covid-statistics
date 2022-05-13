@@ -1,3 +1,3 @@
-import { connectionOptions } from './src/config/connection.config';
+import { connectionOptions } from './src/config';
 
 module.exports = connectionOptions;
